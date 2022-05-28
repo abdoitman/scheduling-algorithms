@@ -5,7 +5,8 @@ Implemented both of First-Come-First-Served and Round Robin scheduling algorithm
 INPUT FORM:
 -----------
 The input should be a text file in the same directory as the code file and formated as follows:
-PROCESS_ID CPUT_TIME I/O_TIME ARRIVAL_TIME
+PROCESS_ID CPU_TIME I/O_TIME ARRIVAL_TIME
+e.g. P01 4 3 1
 
 After running the program, it'll ask you to enter the input file name for example: "testcase.txt". If the name doesn't match any txt files in the directory the program will send an error and simply terminates.
 Then it'll let the user choose what kind of scheduling algorithm they're willing to run:
