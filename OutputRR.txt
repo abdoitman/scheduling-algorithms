@@ -1,0 +1,22 @@
+0 : P3:Running P0:Blocked  
+1 : P2:Ready P2:Running P0:Blocked P3:Blocked  
+2 : P2:Running P0:Blocked P3:Blocked  
+3 : P1:Ready P3:Running P0:Blocked P2:Blocked  
+4 : P1:Running P2:Blocked  
+5 : P1:Running P2:Blocked  
+6 : P1:Running  
+7 : P1:Running  
+8 : P2:Running P1:Blocked  
+9 : P2:Running P1:Blocked  
+10 : P1:Running  
+11 : P1:Running  
+12 : P1:Running  
+13 : P1:Running  
+14 : 
+
+CPU Utilization = 1.000000
+Finish Time : 13
+Turnaround time of process P0: 4
+Turnaround time of process P1: 11
+Turnaround time of process P2: 9
+Turnaround time of process P3: 4
