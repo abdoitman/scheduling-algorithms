@@ -121,7 +121,8 @@ process::~process()
 }
 
 bool sort_by_AT(process& p01, process& p02){
-    return p01.get_arrival_time() < p02.get_arrival_time();
+    if(p01.get_arrival_time() == p02.get_arrival_time()) return p01.get_name() < p02.get_name();
+    else return p01.get_arrival_time() < p02.get_arrival_time();
 }
 
 bool sort_by_name(process& p01, process& p02){
